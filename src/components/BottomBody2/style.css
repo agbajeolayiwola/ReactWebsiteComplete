@@ -1,0 +1,16 @@
+.bottombody2{
+    display: block;
+    text-align: center;
+}
+.bottombody2_Steps{
+    display: grid;
+    grid-template-columns: 40% 40%;
+    grid-column-gap: 10%;
+}
+@media only screen and (min-width: 150px) and (max-width: 750px){
+    .bottombody2_Steps{
+        display: block;
+        grid-template-columns: 40% 40%;
+        grid-column-gap: 10%;
+    }
+}

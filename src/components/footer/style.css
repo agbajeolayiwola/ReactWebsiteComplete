@@ -1,0 +1,27 @@
+.footer{
+    background-color:#2176AE;
+    padding:2% 6%;
+    color: white;
+}
+.footer_sections{
+    display: grid;
+    grid-template-columns: 30% 30% 30%;
+}
+.footer_section1List{
+    list-style: none;
+}
+.footer_section1List1{
+    list-style: none;
+}
+@media only screen and (min-width: 150px) and (max-width: 750px){
+    .footer_sections{
+        display: block;
+        grid-template-columns: 30% 30% 30%;
+    }
+    .footer{
+        background-color:#2176AE;
+        padding:2% 6%;
+        color: white;
+        text-align: center;
+    }
+}

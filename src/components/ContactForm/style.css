@@ -1,0 +1,85 @@
+.body{
+    height: 530px;
+}
+input{
+    margin-top:20px;
+    margin-left:25%;
+    padding: 15px;
+    border:none;
+    background-color: #d3d3d3;
+}
+.contact_contact{
+    text-align: center;
+    margin-top:6%;
+}
+textarea{
+    margin-top: 20px;
+    margin-left:25%;
+    border:none;
+    background-color: #d3d3d3;
+    padding: 15px;
+}
+.contact_div{
+    width: 100%;
+    margin-top: 10%;
+}
+.contact_name{
+    width: 20%;
+
+}
+.contact_email{
+    margin-left: 5%;
+    width: 20%;
+}
+.contact_number{
+    width: 45%;
+
+}
+.contact_message{
+    width: 45%;
+}
+@media only screen and (min-width: 150px) and (max-width: 750px){
+    .body{
+        height: 640px;
+    }
+    input{
+        margin-top:20px;
+        margin-left:5%;
+        padding: 20px;
+        border:none;
+        background-color: #d3d3d3;
+        border-radius: 10px;
+    }
+    .contact_contact{
+        text-align: center;
+        margin-top:6%;
+    }
+    textarea{
+        margin-top: 20px;
+        margin-left:5%;
+        border:none;
+        background-color: #d3d3d3;
+        border-radius: 10px;
+        padding: 20px;
+        font-size: 15px;
+    }
+    .contact_div{
+        width: 100%;
+        margin-top: 10%;
+    }
+    .contact_name{
+        width: 90%;
+    
+    }
+    .contact_email{
+        margin-left: 5%;
+        width: 90%;
+    }
+    .contact_number{
+        width: 90%;
+    
+    }
+    .contact_message{
+        width: 90%;
+    }
+}

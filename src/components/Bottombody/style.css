@@ -1,0 +1,38 @@
+.bottombody{
+    background-image: url('./p.jpg');
+    background-position: center;
+    background-size: cover;
+    height: 700px;
+}
+.bottombody_text{
+    display: flex;
+    justify-content: center;
+    padding-top: 20%;
+    color: white;
+
+}
+.bottombody_btndiv{
+    display: flex;
+    justify-content: center;
+}
+.bottombody_text1{
+    color: white;
+    text-align: center;
+}
+.bottombody_button{
+    background-color:  #426cb4;
+    border: none;
+    width: 150%;
+    height: 61px;
+    color: white;
+    font-size: 20px;
+    border-radius: 10px;
+}
+
+@media only screen and (min-width: 150px) and (max-width: 750px){
+    .bottombody_textH1{
+    margin-top: 50%;
+    text-align: center;
+    }
+
+}

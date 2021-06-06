@@ -1,0 +1,47 @@
+.navbar{
+    display: flex;
+    justify-content: center;
+    padding:2% 5%;
+    width: 90%;
+    max-width: 100%;
+    height: 35px;
+    max-height: 40px;
+    background: transparent;
+    position: absolute;
+    top:0;
+}
+.navbar_Links{
+    display: flex;
+    justify-content: space-between;
+    gap: 30px;
+}
+.navbar_item{
+    display: inline block;
+    font-size: 18px;
+}
+.navbar_LogoImage{
+    width: 15%;
+}
+
+.navbar_Links .navbar_item{
+    cursor: pointer;
+    text-decoration: none;
+    color: black;
+}
+
+.navbar_Links.onLanding .navbar_item{
+    color: white;
+}
+.navbar_h1{
+    position: absolute;
+}
+@media only screen and (min-width: 150px) and (max-width: 750px){
+    .navbar{
+        display: none;
+    }
+    .navbar_Links{
+        display: grid;
+        gap: 30px;
+    }
+
+}
